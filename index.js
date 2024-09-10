@@ -19,8 +19,12 @@ if (hacker1.length > hacker2.length) {
 const upperCasedString = hacker1.toUpperCase();
 let newString = "";
 for (let i = 0; i < upperCasedString.length; i++) {
-  newString += upperCasedString[i];
-  newString += " ";
+  if(i !== hacker1.length -1) {
+    newString += upperCasedString[i] + " ";
+  } else {
+    newString += upperCasedString[i];
+  }
+  
 }
 
 console.log(newString);
