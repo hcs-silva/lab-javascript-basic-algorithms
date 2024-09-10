@@ -53,6 +53,8 @@ const longText =
 const splitLongText = longText.split(" ");
 
 console.log(splitLongText.length);
+
+// Second version for counting the words
 //counter started at 1 because the last word does not have a space after it
 let counter = 1;
 
